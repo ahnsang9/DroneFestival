@@ -1546,7 +1546,7 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     Dialog = QtWidgets.QDialog()
     if len(sys.argv) < 2:
-        print("usage : python Tello_Gui_H_ver.py [True|False]")
+        print("usage : python Tello_Gui_U_ver.py [True|False]")
         exit(0)
     if sys.argv[1] == "False":
         bObjectDetection =  False
