@@ -80,7 +80,7 @@ class Ui_Dialog(object):
         self.Qt_picTimes.append([self.P6_1,self.P6_2,self.P6_3])
         self.Qt_picTimes.append([self.P7_1,self.P7_2,self.P7_3])
         self.Qt_picTimes.append([self.P8_1,self.P8_2,self.P8_3])
-        self.picLabels = ['dog', 'scissors', 'rock', 'paper', 'bird', 'LG', 'KISTI', 'Intel']
+        self.picLabels = ['dog', 'scissors', 'rock', 'paper', 'horse', 'LG', 'KISTI', 'Intel']
         ######
 
         self.bOrdering = False

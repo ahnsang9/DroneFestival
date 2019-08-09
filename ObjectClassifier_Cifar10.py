@@ -20,7 +20,7 @@ class ObjectClassifier_Cifar10():
         model_bin = os.path.splitext(model_xml)[0] + ".bin"
         plugin_dir = None
         cpu_extension = '/opt/intel/openvino/inference_engine/lib/intel64/libcpu_extension_sse4.so'
-        self.labels = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck","rock","scissors","paper"]
+        self.labels = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck","rock","scissors","paper","LG","KISTI","Intel"]
 
         net = IENetwork(model=model_xml, weights=model_bin)
         plugin = IEPlugin(device=device)
