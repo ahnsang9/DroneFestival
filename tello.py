@@ -23,6 +23,7 @@ class Tello():
         self.tello_address = ('192.168.10.1', 8889)
         # Tello로부터 영상스트리밍을 받기위한 ip,port,opencv의 VideoCapture
         self.videoInput = 'udp://0.0.0.0:11111' #Tello Cam
+        #self.videoInput = 0 #Web Cam
         self.cap = None
         self.binitialized = False
         # Tello에게 지속적으로 ‘command’명령을 내려주는 스레드를 멈추기위한 플래그
